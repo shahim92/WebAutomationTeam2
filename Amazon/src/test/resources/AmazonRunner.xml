@@ -6,10 +6,12 @@
     <parameter name="platform" value="mac"/>
     <parameter name="url" value="https://www.amazon.com"/>
     <parameter name="browser" value="Chrome"/>
+    <parameter name="cloud" value="false"/>
+    <parameter name="browserVersion" value="74.00"/>
 
     <test name="Amazon Test">
         <classes>
-            <class name="RegressionSuite.TestHomePage"/>
+            <class name="RegressionSuite.TestPOM"/>
         </classes>
     </test>
 </suite>
