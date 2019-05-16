@@ -78,6 +78,7 @@ public class CommonAPI {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("name", "Cloud Execution");
         capabilities.setCapability("browser", browser);
+
         capabilities.setCapability("browser_version", browserVersion);
         capabilities.setCapability("os", platform);
         capabilities.setCapability("os_version", "Mojave");
