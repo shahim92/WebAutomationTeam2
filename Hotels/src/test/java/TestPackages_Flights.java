@@ -28,6 +28,11 @@ public class TestPackages_Flights extends CommonAPI {
       pf.clickButton("//*[@id='tab-package-tab-hp']");
       pf.enterText("//*[@id='package-origin-hp-package']","jfk");
       pf.enterText("//*[@id='package-destination-hp-package']","Algiers");
-      sleepFor(2);
+      pf.enterText("//*[@id='package-departing-hp-package']","12/03/2019");
+      pf.enterText("//*[@id='package-returning-hp-package']","02/03/2020");
+      pf.checkBox("//*[@id='partialHotelBooking-hp-package']");
+      pf.selectclasstype("f");
+      pf.clickButton("//*[@id='search-button-hp-package']");
+      sleepFor(4);
   }
 }
