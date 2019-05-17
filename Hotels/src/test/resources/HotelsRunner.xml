@@ -14,7 +14,8 @@
 
     <test name="Hotels Home">
         <classes>
-            <class name="TestHomePage"/>
+          <!--  <class name="TestHomePage"/>-->
+            <class name="TestPackages_Flights"/>
         </classes>
     </test>
 </suite>
